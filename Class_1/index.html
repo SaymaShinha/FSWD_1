@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="width: 80%; margin: auto;">
+        <!-- Menu Start -->
+        <a href="https://www.google.com" target="_blank">Google</a>|
+        <a href="https://www.prothomalo.com/" target="">Prothom Alo</a>|
+        <a href="#pre_tag">Pre Tag</a>
+
+        <h1>This is our first Html class</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        <hr>
+        <h2>About Bangladesh</h2>
+        <p>Bangladesh,[a] officially the People's Republic of Bangladesh,[b] <br>
+            is a country in South Asia. It is the eighth-most populous
+            country in the world and among the most densely populated with
+            a population of over 174 million within an area of 148,460
+            square kilometres (57,320 sq mi). Bangladesh shares land
+            borders with India to the north, west, and east, and Myanmar
+            to the southeast. It has a coastline along the Bay of Bengal
+            to its south and is separated from Bhutan and Nepal by the
+            Siliguri Corridor, and from China by the Indian state of
+            Sikkim to its north. Dhaka, the capital and largest city,
+            is the nation's political, financial, and cultural centre.
+            Chittagong is the second-largest city and the busiest port
+            of the country.
+        </p>
+        <hr>
+        <h2 id="pre_tag">Pre Tag</h2>
+        <pre>
+        Twinkle, twinkle, little star,
+        How I wonder what you are!
+        Up above the world so high,
+        Like a diamond in the sky.
+    </pre>
+
+        <hr>
+        <!-- THIS IS A COMMENT -->
+        <h2>Image Tag</h2>
+        <img src="images/cox_bazar.jpg" alt="Cox Bazar">
+
+        <hr>
+        <h2>Table in Html</h2>
+        <table style="width: 60%; margin: auto;">
+            <thead>
+                <th>SI No.</th>
+                <th>Student ID</th>
+                <th colspan="2">Student Name</th>
+                <th>Department</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>1001</td>
+                    <td>S3</td>
+                    <td>Shinha</td>
+                    <td>Mathmetics</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>1002</td>
+                    <td>Md.Raiyan</td>
+                    <td>Khan</td>
+                    <td rowspan="2">CSE</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>1003</td>
+                    <td>Md.Akash</td>
+                    <td>Mahmud</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>Form in HTML</h2>
+        <form action="#">
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+            <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob">
+
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+
+            <br>
+            <label for="degree">Degree:</label>
+            <input type="checkbox" name="degree">SSC
+            <input type="checkbox" name="degree">HSC
+            <input type="checkbox" name="degree">BSC
+            <input type="checkbox" name="degree">MS
+
+            <br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="China">Chaina</option>
+                <option value="Japan">Japan</option>
+            </select>
+            <br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" rows="5" cols="50"></textarea>
+
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Submit">
+
+        </form>
+        <hr>
+        <br>
+        <table>
+            <tbody>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="first_name" id="first_name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="last_name" id="last_name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>
