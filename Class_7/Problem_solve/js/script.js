@@ -133,7 +133,7 @@ function findAveragePhonePrice(array) {
     total_price_of_phone += array[i].price;
   }
 
-  let average_price_of_phone = total_price_of_phone / (array.length + 1);
+  let average_price_of_phone = total_price_of_phone / array.length;
 
   document.getElementById("average_price_of_phone").innerText =
     "9. Average value of phone: " + average_price_of_phone;
